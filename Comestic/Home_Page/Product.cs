@@ -8,9 +8,6 @@ namespace Comestic.Home_Page
 {
     public partial class Product : Form
     {
-        public string ProductID { get; private set; }
-        public byte[] ProductImage { get; private set; }
-
         byte[] image;
 
         public event EventHandler<byte[]> DataChanged;

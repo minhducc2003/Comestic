@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -58,6 +59,46 @@ namespace Comestic.Home_Page
         }
 
         private void exit_signup_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home_Page.Contact contact = new Contact();
+            contact.StartPosition = FormStartPosition.Manual;
+            contact.Location = this.Location;
+            contact.ShowDialog();
+            this.Close();
+        }
+
+        private void bunifuButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home_Page.Profile_home.Home_User_Managerment profile = new Home_Page.Profile_home.Home_User_Managerment();
+            profile.StartPosition = FormStartPosition.Manual;
+            profile.Location = this.Location;
+            profile.ShowDialog();
+            this.Close();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 

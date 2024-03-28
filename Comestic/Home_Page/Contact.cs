@@ -30,11 +30,11 @@ namespace Comestic.Home_Page
                 client.Port = 587;
                 client.EnableSsl = true;
                 client.UseDefaultCredentials = false;
-                client.Credentials = new NetworkCredential("minhduc2510.work@gmail.com", "dwhjeqnkqaijhnav");
+                client.Credentials = new NetworkCredential("mizo.cosmetics.customer@gmail.com", "aijxjlysibqntrut");
 
                 // Tạo đối tượng MailMessage và gửi email
                 MailMessage mailMessage = new MailMessage();
-                mailMessage.From = new MailAddress("minhduc2510.work@gmail.com");
+                mailMessage.From = new MailAddress("mizo.cosmetics.customer@gmail.com");
                 mailMessage.To.Add(toEmailAddress);
                 mailMessage.Subject = "MIZO COMESTIC - Thông báo xác nhận";
                 mailMessage.Body = "Chào " + displayName + ", \n\nCảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ phản hồi lại bạn trong thời gian sớm nhất.\n\nTrân trọng,\nMIZO COMESTIC";

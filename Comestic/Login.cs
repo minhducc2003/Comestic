@@ -39,12 +39,8 @@ namespace Comestic
 
         private void exit_signin_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if (result == DialogResult.Yes)
-            {
                 this.Close();
-            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

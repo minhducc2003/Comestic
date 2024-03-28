@@ -117,22 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="employeesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>276, 17</value>
+  </metadata>
+  <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
+  <metadata name="userDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="exit_signin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAUZJREFUaEPtmMtKxDAUhvs4uvAV1HHhdTVed+rSu8t5ZB9gnFG8f4fxQAgJ7RBN
-        03A++KAU2uYnpMk5jWEYhmEYhlEka3i2uPwTtnC0uMzHKj7hB17IjUTWcYozzBZGQ3z/+okpYTbwGfV9
-        EmYT/51TlJnQD6eE2cY5uu/6wjvMgoR5R38AV9iVWIhHzMoJhsJcYxs7+IL+sw/YC8f4hv6AbjDGLhYV
-        QlkmTLEhlCMMhblFZQ9DIe6xKA7wFf2Byh9oMCGUMYZmpm22imQf/Zlx1VkaBLEwgwohVBEktOhdJUyx
-        i1ypYrEfYmzAg/n9xjZEd3cvflev4ogiIZY9AcdOvtmP70rsGN+lJpFapIgwocJKqsRL7EqosBInmIVq
-        St0VdJsPqZ0U6aD00nwQNIyEOJcbifTSDlKqaNAZhmEYhmEYbTTND1wU8Ar522xCAAAAAElFTkSuQmCC
-</value>
-  </data>
+  <metadata name="employeesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>464, 17</value>
+  </metadata>
 </root>

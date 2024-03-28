@@ -310,5 +310,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        // Đặt kiểu viền cho PictureBox là FixedSingle (viền gạch đơn)
+
+
     }
 }
